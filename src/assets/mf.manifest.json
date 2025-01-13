@@ -1,0 +1,23 @@
+{   
+    "loginApp": {
+      "isActive": true,
+      "remoteEntry": "",
+      "exposedModule": "./LoginModule",
+      "displayName": "loginApp",
+      "routePath": "login",
+      "ngModuleName": "LoginModule",
+      "viaRoute": true,
+      "withInPage": true
+    }, 
+    "policyApp": {
+      "isActive": true,
+      "remoteEntry": "",
+      "exposedModule": "./PolicyModule",
+      "displayName": "policyApp",
+      "routePath": "policy",
+      "ngModuleName": "PolicyModule",
+      "viaRoute": true,
+      "withInPage": true
+    }
+}
+  

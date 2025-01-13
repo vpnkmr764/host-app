@@ -1,0 +1,13 @@
+<div style="text-align:  center;" 
+*ngIf="loggedInCustomerId != null && loggedInCustomerId != undefined && loggedInCustomerId == ''"> 
+    
+    <button [routerLink]="'/login'" class="button"> Login to Portal</button> 
+
+</div>
+
+<div style="text-align:  center;" 
+*ngIf="loggedInCustomerId != null && loggedInCustomerId != undefined && loggedInCustomerId != ''"> 
+    <h3>Welcome Dear. {{loggedInUsername}} !! </h3>
+    <button [routerLink]="'/policy'"> Show my policy</button> &nbsp;
+    <button (click)="logout()"> Logout </button> 
+</div>
